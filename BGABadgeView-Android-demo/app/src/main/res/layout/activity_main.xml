@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hsj.bgabadgeview_android_demo.MainActivity">
+
+    <TextView
+        android:id="@+id/textBadge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textBadge" />
+    <ImageView
+        android:id="@+id/buttonBadge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="buttonBadge"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_marginTop="25dp"/>
+
+
+    <TextView
+        android:id="@+id/textBadge_1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="textBadge"
+        android:layout_marginTop="25dp"/>
+    <ImageView
+        android:id="@+id/buttonBadge_1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="buttonBadge"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>
